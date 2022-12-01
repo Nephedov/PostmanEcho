@@ -17,7 +17,7 @@ public class PostmanEchoTest {
                         .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Значение поля data, возвращаемое в Response"))
+                .body("data", equalTo("Текст"))
         ;
     }
 }
